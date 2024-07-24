@@ -1,0 +1,194 @@
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth; 
+}
+
+.head{
+    border: 1px solid #610fbc;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    color: #610fbc;
+    padding: 5px;
+}
+
+.head a:link {
+    color: #7c3fca;
+    background-color: transparent;
+    text-decoration: none;
+}
+.head a:visited{
+    color: #7c3fca;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.logo{
+    width: 55%;
+    padding: 10px;
+    padding-bottom: 30px;
+    margin: auto;
+    display: block;
+}
+
+.ggrid{
+    background-color: #e0d6f3;
+    align-items: center;
+}
+
+.ggrid img{
+    padding: 20px;
+    border-radius: 100px;
+}
+
+.ggrid h1{
+    font-family: "Bebas Neue", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 3.5rem;
+    font-style: normal;
+    padding-left: 80px;
+    color: #5300bc;
+    padding-top: 50px;
+}
+
+.ggrid .btn{
+    background-color: #5300bc;
+    color: white;
+    border-radius: 30px;
+    padding: 8px 35px;
+    font-family: "Bona Nova SC", serif;
+    border: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.ggrid .btn:hover{
+    background-color: aqua
+}
+
+.ggrid p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding-top: auto;
+    font-size: large;
+    padding: 80px;
+    color: #7c3fca;
+}
+
+.box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box2 p{
+    padding-right: 200px;
+}
+
+.box2 .btn{
+    margin-left: 70px;
+}
+
+.off1 ,.off2 ,.off3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+.off1 .btn,.off2 .btn, .off3 .btn{
+    background-color: #5300bc;
+    color: white;
+    border-radius: 30px;
+    padding: 8px 35px;
+    font-family: "Bona Nova SC", serif;
+    border: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    font-size: 1.2rem;
+    margin-bottom: auto;
+}
+
+.off1 .btn:hover,.off2 .btn:hover, .off3 .btn:hover{
+    background-color: aqua
+}
+.o1,.o2,.o3{
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+h1{
+    padding-top: 20px;
+}
+
+h3{
+    padding-right: 250px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 2.4rem;
+    font-style: normal;
+    color: #5300bc;
+}
+
+.o1 p,.o2 p,.o3 p{
+    padding-right: 250px;
+    color: #7c3fca;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding-top: auto;
+    font-size: medium;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 5px 0;
+    background-color: #e0d6f3;
+    padding: 40px;
+}
+
+.footer img{
+    width: 40%;
+}
+
+.footer p{
+    color: #7c3fca;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding-top: auto;
+    font-size: large;
+    padding: 80px;
+}
+
+hr{
+    color: #5300bc;
+}
+
+i{
+    color: #5300bc;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    font-size: xxx-large;
+}
