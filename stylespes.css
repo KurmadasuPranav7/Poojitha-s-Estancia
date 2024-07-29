@@ -279,5 +279,13 @@ i{
         color: #5300bc;
         padding-top: 50px;
     }
+    
+    .logo{
+        width: 100%;
+        padding: 5px;
+        padding-bottom: 30px;
+        margin: auto;
+        display: block;
+    }
 
 }
