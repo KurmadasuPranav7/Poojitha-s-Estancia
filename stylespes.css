@@ -131,6 +131,7 @@ html {
 .off1 .btn:hover,.off2 .btn:hover, .off3 .btn:hover{
     background-color: aqua
 }
+
 .o1,.o2,.o3{
     padding-bottom: 50px;
     padding-top: 50px;
@@ -191,4 +192,92 @@ i{
     padding-top: 30px;
     padding-bottom: 0px;
     font-size: xxx-large;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .head{
+        border: 1px solid #610fbc;
+        border-top: 0px;
+        border-left: 0px;
+        border-right: 0px;
+        color: #610fbc;
+    }
+
+    .ggrid img{
+        padding: 20px;
+        border-radius: 100px;
+        width: 100%;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer p{
+        padding: 30px;
+    }
+    
+    .footer img{
+        width: 90%;
+    }
+
+    .ggrid p{
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        padding-top: auto;
+        font-size: large;
+        padding: 40px;
+        color: #7c3fca;
+    }
+
+
+    .off1,.off2,.off3{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .o1 p,.o2 p,.o3 p{
+        padding-right: 60px;
+        color: #7c3fca;
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: medium;
+        padding-left: 40px;
+    }
+
+    h3{
+        padding-right: 100px;
+        padding-left: 60px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 2rem;
+        font-style: normal;
+        color: #5300bc;
+        padding-bottom: 10px;
+    }
+
+    
+    i{
+        color: #5300bc;
+        padding-top: 30px;
+        padding-bottom: 0px;
+        font-size: xx-large;
+    }   
+
+    .ggrid h1{
+        font-family: "Bebas Neue", sans-serif;
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 2.5rem;
+        font-style: normal;
+        padding-left: 10px;
+        color: #5300bc;
+        padding-top: 50px;
+    }
+
 }
