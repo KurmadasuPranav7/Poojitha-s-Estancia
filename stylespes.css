@@ -199,7 +199,6 @@ iframe{
 }
 
 
-
 @media only screen and (max-width: 600px) {
     .head{
         border: 1px solid #610fbc;
@@ -284,7 +283,7 @@ iframe{
         color: #5300bc;
         padding-top: 50px;
     }
-    
+
     .logo{
         width: 100%;
         padding: 5px;
